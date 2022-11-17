@@ -1,5 +1,5 @@
 body {
-  /*background-color: #FFDAB9;	*/
+  /*background-color: #E97777;	*/
   background-color: #000;
   -webkit-transition: background-color linear 5s;
   -moz-transition: background-color linear 5s;
@@ -12,7 +12,7 @@ body {
   display: none;
 }
 .peach {
-  background-color: #ffdab9;
+  background-color: #e97777;
 }
 .peach-after {
   -webkit-animation: peach_alive linear 8s infinite;
@@ -24,90 +24,90 @@ body {
 
 @-webkit-keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   25% {
     background-color: #ffe4b5;
   }
   50% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   75% {
     background-color: #ffefd5;
   }
   100% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
 }
 @-moz-keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   25% {
     background-color: #ffe4b5;
   }
   50% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   75% {
     background-color: #ffefd5;
   }
   100% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
 }
 
 @-o-keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   25% {
     background-color: #ffe4b5;
   }
   50% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   75% {
     background-color: #ffefd5;
   }
   100% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
 }
 
 @-ms-keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   25% {
     background-color: #ffe4b5;
   }
   50% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   75% {
     background-color: #ffefd5;
   }
   100% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
 }
 
 @keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   25% {
     background-color: #ffe4b5;
   }
   50% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
   75% {
     background-color: #ffefd5;
   }
   100% {
-    background-color: #ffdab9;
+    background-color: #e97777;
   }
 }
 
@@ -1324,7 +1324,7 @@ audio {
   z-index: 100000;
   background: #020202;
   cursor: crosshair;
-  display: none;
+  /* display: none; */
   animation: appear ease-in-out 0.3s;
 }
 
@@ -1458,6 +1458,7 @@ audio {
   height: 100%;
   object-fit: cover;
   user-select: none;
+  border-radius: 4px;
 }
 
 @keyframes flyright {
